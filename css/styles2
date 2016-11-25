@@ -1,0 +1,123 @@
+
+body {
+     margin: 0;
+	background:  
+	url('../images/dark-background.png') ;
+     -webkit-background-size: cover;
+	 moz-background-size: cover;
+     background-repeat:no-repeat;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.
+.btn {
+    padding: 7px 24px;
+    border: 0 none;
+	font-family : 'Teko', sans-serif;
+	font-size: 24px;
+	font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+*/
+.graybar {
+		background-color: #666666;
+}/*
+blockquote{
+  display:block;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #666;
+  text-align: justify;
+  
+  /*Borders - (Optional)*/
+  //border-left: 15px solid #c76c0c;
+  //border-right: 2px solid #c76c0c;
+  
+  /*Box Shadow - (Optional)*/
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;
+}
+
+blockquote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #999;
+  
+  /*Positioning*/
+  position: absolute;
+  left: 10px;
+  top:5px;
+}
+
+blockquote::after{
+  /*Reset to make sure*/
+  content: "";
+}
+
+blockquote a{
+  text-decoration: none;
+  background: #eee;
+  cursor: pointer;
+  padding: 0 3px;
+  color: #c76c0c;
+}
+
+blockquote a:hover{
+ color: #666;
+}
+
+blockquote em{
+  font-style: italic;
+}
+h1 {
+		text-transform: uppercase;
+		font-family : 'Teko', sans-serif;
+		font-weight: 200;
+		font-stretch: condensed;
+		font-size: 36px;
+		color: rgb(218,51,45);
+		text-transform: capitalize;
+}
+
+p {
+
+		font-family: 'Montserrat', serif;
+	}
+
+.bannerimage {
+		background-image: url('../images/logo.png');
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-size: 1213px;
+		background-color: #666666;
+		min-height: 408px;
+		display: block;
+
+}/*
+header {
+	background-image: url('../images/logo.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 1213px;
+	background-color: #666666;
+	min-height: 408px;
+	display: block;
+}*/
+.bodypage {
+	background-color: rgba(255,255,255,0.8);
+	padding-left : 80px;
+	padding-right : 80px;
+}
